@@ -1,3 +1,7 @@
+const log = (param, text = "RESULT: ") => {
+    console.log(text, param);
+  };
+//---------------------------------------------
 const liItemList = document.querySelectorAll('li.item');
 
  log(`Number of categories: ${liItemList.length}`);
