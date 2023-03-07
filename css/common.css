@@ -22,3 +22,35 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+/* ------------------------------------------------------- */
+ul.gallery {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gallery {
+  margin: auto;
+  max-width: 1285px;
+  align-items: center;
+}
+.liClass {
+  margin: 5px;
+  border: 3px dashed #f19b0655;
+  border-radius: 50px;
+  background: linear-gradient(
+    224.1deg,
+    rgba(219, 183, 99, 0) 25.79%,
+    rgba(252, 176, 0, 0.44) 91.17%
+  );
+  box-shadow: 5px 5px 5px 5px rgba(252, 176, 0, 0.42);
+}
+
+.imgClass {
+  margin: 45px;
+  height: 200px;
+  align-items: center;
+}

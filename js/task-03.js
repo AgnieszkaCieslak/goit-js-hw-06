@@ -12,3 +12,9 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const marker = document.querySelector("ul.gallery");
+for (const elem of images) {
+  const argument = `<li class="liClass"><img class="imgClass" src="${elem.url}" alt="${elem.alt}"/></li>`;
+  marker.insertAdjacentHTML("beforeend", argument);}
+  
